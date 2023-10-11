@@ -1,0 +1,1551 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Poppins:ital,wght@0,300;0,600;1,300&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(images/ci_hamburger-md.png);
+}
+
+.header-main-img {
+    background-image: url(images/unsplash_hYZvutSXXuM.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+
+}
+
+/* .nav-styling {
+    display: flex;
+    justify-content: end;
+} */
+
+.nav-link {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #F5FBFF;
+
+}
+
+.nav-link:hover {
+    color: #1F5E94;
+}
+
+
+.navbar {
+    padding: 48px, 100px, 48px, 100px;
+}
+
+.banner-heading h2 {
+    color: #F5FBFF80;
+    font-size: 120px;
+    font-weight: 700;
+
+}
+
+.banner-heading {
+    margin-top: 50px;
+
+}
+
+.banner-heading span {
+    -webkit-text-stroke: 2px #F5FBFF80;
+    -webkit-text-fill-color: transparent;
+}
+
+.banner-txt p {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgba(245, 251, 255, 1);
+    line-height: 30px;
+    letter-spacing: -1px;
+}
+
+.banner-txt {
+    background-color: rgba(24, 34, 49, 0.4);
+    padding: 25px;
+    backdrop-filter: blur(10px);
+    gap: 10px;
+    border-radius: 0% 5% 5% 0%;
+    border-left: outset;
+    margin-bottom: 80px;
+
+}
+
+.industries-products-info {
+    background-image: url(images/WhatsApp\ Image\ 2023-10-04\ at\ 20.36.42_7445950f.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.section-three-heading {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 83.25px;
+    letter-spacing: -2%;
+    margin-top: 95px;
+}
+
+.section-three-txt-rapo p {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color:
+        #182231;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.42px;
+    letter-spacing: -1%;
+
+}
+
+.section-three-txt-rapo h5 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #1F5E94;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.42px;
+    letter-spacing: -2%;
+    position: relative;
+
+}
+
+.section-three-txt-rapo h5::before {
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 12px;
+    width: 12px;
+    margin-right: 1.5rem;
+    background-color: #1F5E94;
+    ;
+}
+
+.section-three-txt-rapo h5::after {
+    content: '';
+    position: absolute;
+    top: 44px;
+    left: 0px;
+    border-bottom: solid 3px #1F5E94;
+    height: auto;
+    width: 228px;
+    right: 0px;
+}
+
+.agriculture-info-list h4 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.42px;
+    letter-spacing: -1%;
+}
+
+
+
+.agriculture-info-list a {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 38.42px;
+    letter-spacing: -2%;
+
+}
+
+.agriculture-info-list a::before {
+    /* add the new bullet point */
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 12px;
+    width: 12px;
+    margin-right: 1.5rem;
+    background-color: #D9D9D9;
+
+}
+
+.section-three-txt-rapo {
+    position: relative;
+}
+
+.section-three-txt-rapo::after {
+    content: "";
+    position: absolute;
+    top: 367px;
+    left: -187px;
+    width: 136%;
+    height: 100%;
+    border-radius: 50%;
+    opacity: 52%;
+    background: rgb(255, 240, 187);
+    background: radial-gradient(circle, rgba(255, 240, 187, 1) 0%, rgba(255, 240, 187, 0.21894695378151263) 50%);
+    box-shadow: 30px;
+
+
+}
+
+.forest-txt h4 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 38.42px;
+    letter-spacing: -2%;
+}
+
+.forest-txt p {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 38.42px;
+    letter-spacing: -1%;
+}
+
+.addition-features-heading h4 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 64px;
+    font-weight: 700;
+    line-height:
+        102.46px;
+    letter-spacing: -0.23%;
+    margin-top: 100px;
+}
+
+.addition-features-heading h5 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 44px;
+    font-weight: 400;
+    line-height:
+        70.44px;
+    letter-spacing: -1%;
+
+}
+
+.cards-row {
+    margin-top: 100px;
+
+}
+
+.card-img {
+    width: 80px;
+    height: 80px;
+    background: #FAFAFA;
+}
+
+.card-img:hover {
+    background: #F5F5F5;
+}
+
+.card-title {
+    color: #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    /* 116.667% */
+    letter-spacing: -0.48px;
+}
+
+.card-footer {
+    padding: 0.5rem 1rem;
+    background-color: transparent;
+    border-top: none;
+
+}
+
+.card-footer a {
+    text-decoration: none;
+    color: #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.32px;
+    align-items: stretch;
+}
+
+.card-styling {
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 8px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+
+}
+
+.card-header {
+    padding: 0.5rem 1rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, .03);
+    border-bottom: none;
+
+}
+
+.features-card-img :first-child {
+    border-radius: 24px;
+}
+
+.About-us {
+    padding: 100px;
+}
+
+.about-us-heading h3 {
+    color: #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.04px;
+
+}
+
+.about-us-heading {
+    margin-bottom: 32px;
+
+}
+
+.galary-img-one {
+    border-radius: 8% 0% 0% 0%;
+}
+
+.galary-img-two {
+    border-radius: 0% 0% 0% 8%;
+}
+
+.galary-img-five {
+    border-radius: 0% 8% 0% 0%;
+}
+
+.galary-img-eight {
+    border-radius: 0% 0% 8% 0%;
+    filter: drop-shadow(50px 70px 100px rgba(151, 71, 255, 0.20));
+}
+
+.galary-styling {
+    position: relative;
+}
+
+.background-box-shadow {
+    box-shadow: 90px 60px 5000px #9747ff31;
+}
+
+.founding-vision-txt-rapo h6 {
+    color: #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.48px;
+    margin-top: 32px;
+}
+
+.founding-vision-txt-rapo h2 {
+    color: #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.66px;
+
+}
+
+.founding-vision-txt-rapo p {
+    color: #7D7D7D;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    /* 138.889% */
+    letter-spacing: -0.18px;
+
+}
+
+
+
+.team-info {
+    padding: 100px;
+}
+
+.team-info-heading h5 {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.147px;
+
+}
+
+.team-info-heading p {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.44px;
+    margin-bottom: 100px;
+}
+
+.team-card-txt h6 {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: -0.48px;
+
+}
+
+.team-card-txt p {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.2px;
+
+}
+
+.team-info-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: none;
+    border: none;
+    border-radius: none;
+    position: relative;
+
+}
+
+.background-effect {
+    filter: drop-shadow(-50px 72px 75px rgb(255, 251, 14));
+}
+
+.team-card-img {
+    background-color: white;
+    width: 114.074px;
+    height: 114.074px;
+    border-radius: 100%;
+    margin-bottom: 16px;
+}
+
+.partnership-heading-txt-rapo h2 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: -0.0023em;
+    text-align: left;
+}
+
+.partnership-heading-txt-rapo h2 span {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.0023em;
+    text-align: left;
+
+
+}
+
+.partnership {
+    padding: 100px;
+
+    background: rgba(245, 251, 255, 1);
+
+}
+
+.partnership-txt-rapo p {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+
+}
+
+.Contact-info {
+
+    padding: 100px;
+}
+
+.last-sections-bg-img {
+    background-image: url(images/WhatsApp\ Image\ 2023-10-04\ at\ 20.36.36_ab1e5d4a.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100%;
+}
+
+.contact-info-img-txt-rapo {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-info-img-txt-rapo h5 {
+    color:
+        #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 38px;
+    letter-spacing: -0.0023em;
+    text-align: center;
+
+}
+
+.contact-info-img-txt-rapo h6 {
+    color:
+        #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: -0.0023em;
+    text-align: center;
+
+
+}
+
+.contact-info-img-txt-rapo h2 {
+    color:
+        #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+    text-align: center;
+margin-top: 34px;
+margin-bottom: 34px;
+}
+
+.span1 {
+    color:
+        #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 60px;
+    text-align: center;
+
+}
+
+.span2 {
+    color:
+        #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.contact-info-img-txt-rapo p {
+    color:
+        #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 38px;
+    text-align: center;
+    margin-bottom: 436px;
+}
+
+.custom-input {
+    border-radius: 12px;
+    background: #F8F8F8;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    height: 60px;
+    padding: 16px;
+    align-items: center;
+    gap: 10px;
+    flex: 1 0 0;
+}
+
+.custom-textarea {
+    display: flex;
+    height: 140px;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 12px;
+    background: #F8F8F8;
+    margin-bottom: 64px;
+}
+
+.send-button {
+    text-align: center;
+}
+
+.contact-us-form-headings h3 {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.span4 {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.contact-us-form-headings p {
+    color: var(--Primary, #182231);
+    text-align: center;
+    font-family: Hind;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: -0.18px;
+}
+
+.span5 {
+    color: var(--Primary, #182231);
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: -0.18px;
+}
+
+.contact-us-form {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 64px;
+
+}
+
+.contact-form-container-2 {
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    padding: 34px;
+    width: 100%;
+
+}
+
+.contact-form-container {
+    border-radius: 32px;
+    background-color: white;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    padding: 34px;
+    width: 100%;
+
+}
+
+.contact-us-form-headings {
+    margin-bottom: 64px;
+}
+
+.btn-styling {
+    color: white;
+    display: flex;
+    width: 207px;
+    padding: 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 46px;
+    background-color: #182231;
+}
+
+.form-control:focus {
+    color: #212529;
+    border-radius: 12px;
+    border-color: #ffffff;
+    background: #F8F8F8;
+    outline: 0;
+    box-shadow: none;
+}
+
+.btn:hover {
+    color: #0080ff;
+}
+
+.footer-container {
+    position: relative;
+    margin: 40px;
+}
+
+.contact-form-container-2 {
+    position: unset;
+
+}
+
+.contact-form-container {
+    position: absolute;
+    top: -437px;
+    left: 0px;
+    right: 0px;
+    width: 85%;
+}
+
+.footer-container {
+    padding: 63px 104px;
+    border-radius: 32px;
+    background: #182231;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+}
+
+.footer-logo {
+    max-width: 100%;
+    height: 86px;
+    margin-bottom: 64px;
+    margin-top: 300px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px;
+list-style: none;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: #CCC;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-links-column {
+    display: flex;
+    align-items: center;
+}
+
+.copyright-txt-footer {
+    margin-top: 64px;
+}
+
+.copyright-txt-footer p {
+    color: #CCC;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.span6 {
+    color: #CCC;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+
+.slider-galary-img {
+    width: 250px;
+    height: 200px;
+
+    border-radius: 12px;
+}
+
+.slick-slide img {
+    display: block;
+    max-width: 100%;
+    height: 200px;
+margin-left: 23px;
+}
+
+/*               media quiry                */
+@media (max-width: 576.98px) {
+.footer-link {
+    text-decoration: none;
+    color: #CCC;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}}
+@media (max-width: 576.98px) {
+.span6 {
+    color: #CCC;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}}
+@media (max-width: 576.98px) {
+.copyright-txt-footer p {
+    color: #CCC;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}}
+@media (max-width: 576.98px) {
+.card-body {
+    flex: 1 1 auto;
+    padding:0px
+}}
+@media (max-width: 576.98px) {
+.banner-txt {
+    margin-bottom: 40px;
+    display: flex;
+padding: 20px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+border-radius: 0px 12px 12px 0px;
+border-left: 4px solid var(--Secondary, #F5FBFF);
+background: rgba(24, 34, 49, 0.40);
+backdrop-filter: blur(12px);
+
+}}
+@media (max-width: 576.98px) {
+.forest-txt p {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+   
+    color: #7D7D7D;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -0.14px;
+}}
+@media (max-width: 576.98px) {
+.forest-txt h4 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #182231;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.36px;
+}}
+@media (max-width: 576.98px) {
+.forest-img img{
+    margin-bottom: 32px;
+}}
+@media (max-width: 576.98px) {
+.card-styling {
+        max-width: 100%;
+        height: 139px;
+        padding: 9px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        border-radius: 12px;
+        background: #FFF;
+        box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.11);
+    
+}}
+@media (max-width: 576.98px) {
+.card-img {
+    width: 38.182px;
+    height: 38.182px;
+    background: #FAFAFA;
+}}
+@media (max-width: 576.98px) {
+.card-footer a {
+    display: none;
+}}
+@media (max-width: 576.98px) {
+.about-us-heading {
+    margin-bottom: 24px;
+}}
+@media (max-width: 576.98px) {
+.contact-info-img-txt-rapo h5 {
+    color: #182231;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+letter-spacing: -0.041px;
+}}
+@media (max-width: 576.98px) {
+    .contact-info-img-txt-rapo h6 {
+        color: #182231;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.041px;
+    }}
+
+@media (max-width: 576.98px) {
+.agriculture-info-list h4 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: var(--Primary, #182231);
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+letter-spacing: -0.18px;
+}}
+@media (max-width: 576.98px) {
+.agriculture-info-list a::before {
+    display: inline-block;
+    content: '';
+    -webkit-border-radius: 0.375rem;
+    border-radius: 0.375rem;
+    height: 8px;
+    width: 8px;
+    margin-right: 1.5rem;
+    background-color: #D9D9D9;
+}}
+@media (max-width: 576.98px) {
+.agriculture-info-list a {
+    text-decoration: none;
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: #4C4947;
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.14px;
+}}
+@media (max-width: 576.98px) {
+.agriculture-info-list h4 {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: var(--Primary, #182231);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.24px;
+}}
+@media (max-width: 576.98px) {
+.section-three-txt-rapo p {
+    font-family: 'Hind', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    color: var(--Primary, #182231);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.18px;
+}}
+@media (max-width: 576.98px) {
+    .section-three-heading {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: var(--Primary, #182231);
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.56px;
+    }
+}
+
+
+@media (max-width: 576.98px) {
+    .background-effect {
+        filter: none;
+        padding: 16px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .section-three-txt-rapo::after {
+        display: none;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .span2 {
+        color: #182231;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .span1 {
+        color: #182231;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .contact-us-form-headings p {
+        color: var(--Primary, #182231);
+        text-align: center;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.12px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .span4 {
+        color: var(--Primary, #182231);
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .contact-us-form-headings h3 {
+        color: var(--Primary, #182231);
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: capitalize;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .contact-info-img-txt-rapo p {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: #7D7D7D;
+        text-align: center;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.14px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .contact-info-img-txt-rapo h2 {
+        color: #182231;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        font-size: 19px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        /* 140% */
+    }
+}
+
+@media (max-width: 576.98px) {
+    .partnership-txt-rapo p {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: #7D7D7D;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.14px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .partnership-heading-txt-rapo h2 span {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.36px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .partnership-heading-txt-rapo h2 {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.56px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .team-info-heading p {
+        color: var(--Primary, #182231);
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.36px;
+margin-bottom: 16px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .team-info-heading h5 {
+        color: var(--Primary, #182231);
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.56px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .founding-vision-txt-rapo p {
+        color: #7D7D7D;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.14px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .founding-vision-txt-rapo h2 {
+        color: #182231;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px;
+        /* 116.667% */
+        letter-spacing: -0.48px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .founding-vision-txt-rapo h6 {
+        color: #182231;
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.36px;
+        margin-bottom: 24px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .about-us-heading h3 {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: var(--Primary, #182231);
+
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.56px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .addition-features-heading h5 {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: var(--Primary, #182231);
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.36px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .addition-features-heading h4 {
+        color: var(--Primary, #182231);
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: -0.56px;
+        margin-top: 100px;
+    }
+}
+
+@media (max-width:1985.767px) {
+    .slider-container {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .slider-container {
+        display: block;
+
+    }
+}
+
+@media (max-width:767.98px) {
+    .galary-styling {
+        display: none;
+    }
+}
+
+@media (min-width:1567.767px) {
+    .galary-styling {
+        display: block;
+
+    }
+}
+
+
+
+@media (max-width: 1200.98px) {
+    .section-three-txt-rapo h5::before {
+        display: inline-block;
+        content: '';
+        -webkit-border-radius: 0.375rem;
+        border-radius: 0.375rem;
+        height: 8px;
+        width: 8px;
+        margin-right: 1.5rem;
+        background-color: #1F5E94;
+    }
+}
+
+@media (max-width: 1200.98px) {
+    .section-three-txt-rapo h5 {
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        color: #1F5E94;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        letter-spacing: -0.14px;
+        position: relative;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .section-three-txt-rapo h5::after {
+        display: none;
+    }
+}
+
+@media (min-width:992px) {
+    .nav-styling {
+        flex: initial;
+        gap: 32px;
+    }
+}
+
+@media (max-width:992px) {
+    .nav-styling {
+        text-align: center;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .col-xs-styling {
+        flex: 0 0 auto;
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .card-title {
+        color: var(--Primary, #182231);
+        font-family: 'Hind', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 18px;
+        /* 128.571% */
+        letter-spacing: -0.14px;
+    }
+}
+
+@media (max-width: 1985.767px) {
+
+    .contact-form-container-2 {
+        display: none;
+
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .contact-form-container-2 {
+        display: block;
+
+    }
+}
+
+/* @media (max-width: 767.98px ){
+    .contact-form-container{
+        position: unset;
+    }
+} */
+@media (max-width: 575.98px) {
+    .contact-form-container {
+        display: none;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .footer-logo {
+
+        margin-top: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .contact-info-img-txt-rapo p {
+
+        margin-bottom: 0px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer {
+
+        padding: 20px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .contact-us-form {
+
+        padding: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer-links {
+        display: grid;
+        justify-content: left;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer-links-column {
+        display: grid;
+        justify-content: left;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .footer-container {
+        position: unset;
+        padding: 20px;
+        margin: 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .custom-input {
+        margin-bottom: 20px;
+
+    }
+}
+
+@media (max-width: 767.98px) {
+    .btn-styling {
+
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 991.98px) {
+    .team-info {
+        padding: 35px;
+
+    }
+}
+
+@media (max-width: 991.98px) {
+    .partnership {
+        padding: 35px;
+
+        background: rgba(245, 251, 255, 1);
+
+    }
+}
+
+@media (max-width: 991.98px) {
+    .Contact-info {
+        padding: 35px;
+
+        background: rgba(245, 251, 255, 1);
+
+    }
+}
+
+@media (max-width: 575.98px) {
+    .banner-heading h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 767.98px) {
+    .banner-heading h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .About-us {
+        padding: 35px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .banner-heading h2 {
+        font-size: 80px;
+        font-weight: 700;
+    }
+}
+
+
+@media (max-width: 1199.98px) {}
+
+@media (max-width: 767.98px) {
+    .banner-txt p {
+        font-size: 11px;
+        font-weight: 700;
+        letter-spacing: 0px;
+
+    }
+}
